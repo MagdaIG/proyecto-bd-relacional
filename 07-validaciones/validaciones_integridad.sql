@@ -89,3 +89,6 @@ WHERE producto_id IS NULL;
 
 -- 5. Resumen de validaciones
 SELECT 'RESUMEN: Todas las validaciones de integridad completadas' AS estado;
+
+-- Nota: Si alguna validación devuelve registros_problematicos > 0, 
+-- es necesario revisar y corregir los datos antes de continuar.
