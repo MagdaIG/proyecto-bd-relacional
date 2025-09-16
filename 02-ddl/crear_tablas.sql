@@ -2,9 +2,11 @@
 -- Crea tablas normalizadas hasta 3FN: productos, proveedores, transacciones
 -- Ejecutar en un DB vacío o con esquema dedicado
 
--- Opcional: crear esquema lógico
+-- Crear esquema lógico para el sistema de inventario
 CREATE SCHEMA IF NOT EXISTS inventario;
 SET search_path TO inventario, public;
+
+-- Comentario: Este esquema contiene todas las tablas del sistema de inventario
 
 -- Tabla: proveedores
 CREATE TABLE IF NOT EXISTS proveedores (
