@@ -1,6 +1,7 @@
 SET search_path TO inventario, public;
 
 -- 1) obtener_stock_actual(nombre_producto TEXT)
+-- Función para obtener el stock actual de un producto por nombre
 CREATE OR REPLACE FUNCTION obtener_stock_actual(nombre_producto TEXT)
 RETURNS INTEGER AS $$
 DECLARE
