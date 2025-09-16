@@ -21,8 +21,9 @@ Archivo en `01-modelado/diagrama-ERD.drawio`.
 Al insertar en `transacciones` una fila con `tipo` `venta` o `compra`, se ajusta `productos.stock` automáticamente.
 
 ## Tecnologías
-- PostgreSQL
+- PostgreSQL 15+
 - DBeaver o pgAdmin
 - HTML/CSS para presentación
+- Git para control de versiones
 
 
